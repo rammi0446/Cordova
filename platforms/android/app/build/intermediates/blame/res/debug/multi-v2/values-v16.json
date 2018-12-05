@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/santoshtekulapally/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/8fe7aeb6d61f1b144cb5f50b28636714/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

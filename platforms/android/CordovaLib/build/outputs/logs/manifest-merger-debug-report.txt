@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+	package
+		ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:21:7-35
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:21:36-61
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml:21:62-85
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+		ADDED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/santoshtekulapally/Downloads/ShRana11-cordovatynder-0fc7e59e9a83/platforms/android/CordovaLib/AndroidManifest.xml
