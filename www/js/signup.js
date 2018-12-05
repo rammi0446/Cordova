@@ -46,22 +46,24 @@ function signupButton() {
 
   function displayResults( tx, results ){
     if(results.rows.length == 0) {
-           console.log("new user")
+           console.log("new user");
             insertUser();
 
       }
+else {
+  for(var i=0; i<results.rows.length; i++) {
+     if(results.rows.item(i).email == inputMail) {
+       alert("email already exist");
+        var name = results.rows.item(i).email;
+       console.log("--------");
+       console.log("--------");
+       console.log(name);
+       console.log("--------");
+       console.log("--------");
+     }
+   }
+}
 
-     for(var i=0; i<results.rows.length; i++) {
-        if(results.rows.item(i).email == inputMail) {
-          alert("email already exist");
-           var name = results.rows.item(i).email;
-          console.log("--------");
-          console.log("--------");
-          console.log(name);
-          console.log("--------");
-          console.log("--------");
-        }
-      }
 
   }
 
@@ -73,24 +75,24 @@ function signupButton() {
 
 
   function onReadyTransaction(){
-    console.log( 'Transaction completed' )
+    console.log( 'Transaction completed' );
   }
-function displayuser(tx, results){
-    console.log("display user")
-    console.log(results.rows.item(0).name)
-     console.log(results.rows.item(0).email)
-     console.log(results.rows.item(0).password)
-     window.location.replace("index.html");
-}
-function datasaved(){
-    console.log( 'data saved into database' )
 
+function datasaved(){
+    console.log( 'data saved into database' );
+    alert("data saved into database");
+ window.location.replace("index.html");
 }
   function onSuccessExecuteSql( tx, results ){
-    console.log( 'Execute SQL completed' );
+    console.log( 'Execute SQL completed' +tx +results );
+    alert("data saved into database");
+    window.location.replace("index.html");
   }
   function onError( err ){
-    console.log( "error"+err.message )
+    console.log( "error"+err.message );
+    alert("error"+err.message);
+
+
   }
 
 function connectToDatabase() {
@@ -142,7 +144,7 @@ function insertUser(){
         function(tx){
             tx.executeSql(
                 "INSERT INTO user(email, password, name, birthdate, location, description, phone)  VALUES(?,?,?,?,?,?,?)",
-                [inputMail, inputPassword, inputName, inputDOB,inputLocation,inputDescription,inputPhone],
+                [inputMail, inputPassword, inputName, inputDOB, inputLocation, inputDescription, inputPhone],
                 onSuccessExecuteSql,
                 onError
             )
@@ -151,17 +153,5 @@ function insertUser(){
         datasaved()
     )
 
-    // db.transaction(
-    //                function(tx){
-    //
-    //                tx.executeSql(
-    //                              "SELECT * FROM user where email = ?",
-    //                              [inputMail],
-    //                              displayuser,
-    //                              onError
-    //                              )
-    //                },
-    //                onError,
-    //                onReadyTransaction
-    //                )
+
 }

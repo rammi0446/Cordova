@@ -184,13 +184,14 @@ function onReadyTransaction(){
       alert("error when converting file path!");
     });
   }
+
   else {
     // show image in UI
     // show the image in the user interface
     alert("set the file on ui")
     var imageBox = document.getElementById("photoContainer");
     imageBox.src="data:image/jpg;base64,"+filename;
-  alert(imageBox)
+    alert(imageBox)
     // adding it to local storage
 
     localStorage.setItem("photo", "data:image/jpg;base64,"+filename);
