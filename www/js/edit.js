@@ -163,8 +163,27 @@ function onReadyTransaction(){
 
   console.log("Image path: "  + filename);
   alert("Image path: "  + filename);
+//options ios
+if (window.cordova.platformId == "ios") {
+  // if you are using android, you need to do some extra steps
+  // to ensure you have the "real" image file path
+  // Note: you need to install this plugin: cordova-plugin-filepath
+  // for it to work properly
+  window.FilePath.resolveNativePath(filename, function(result) {
+    imageURI = result;
+    alert("Successfully converted image path: " + result);
 
-  // ---------
+    localStorage.setItem("photo", result);
+
+
+    var image = document.getElementById("photoContainer");
+    image.src = result;
+
+  }, function (error) {
+    alert("error when converting file path!");
+  });
+}
+  // --------- android
   if (window.cordova.platformId == "android") {
     // if you are using android, you need to do some extra steps
     // to ensure you have the "real" image file path
